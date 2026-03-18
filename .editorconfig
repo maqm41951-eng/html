@@ -1,16 +1,69 @@
-root = true
+tكجةOE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>ملفي الشخصي</title>
+    <style>
+        body {
+            background-color: #f4f7f6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+        }
+        .card {
+            background-color: white;
+            width: 80%;
+            max-width: 400px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 { color: #2c3e50; }
+        .info {
+            text-align: right;
+            margin-top: 20px;
+        }
+        .info p {
+            background: #ecf0f1;
+            padding: 10px;
+            border-radius: 8px;
+            margin: 5px 0;
+        }
+        .hobby-tag {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            margin: 3px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
 
-[*]
-end_of_line = lf
-insert_final_newline = true
-charset = utf-8
-indent_size = 2
-indent_style = space
-trim_trailing_whitespace = true
+    <div class="card">
+        <h1>بطاقة تعريفية</h1>
+        
+        <div class="info">
+            <p><strong>👤 الاسم:</strong[كرار علاءحسين]
+            <p><strong>📍 المكان:</strong>[Iraq ]/[ Najaf]
+        </div>
 
-[demos/**]
-insert_final_newline = false
+        <div class="info">
+            <strong>🎮 الهوايات:</strong><br><br>
+            <span class="hobby-tag"> برمجة الامن السيبرانيan>
+            <span class="hobby-tag">an>
+            <span class="hobby-tag">كرةلقدمan>
+            </div>
+        
+        <br>
+        <button onclick="alert('شكراً لزيارة ملفي الشخصي!')" style="cursor:pointer; padding: 10px 20px; border-radius: 5px; border: none; background: #2ecc71; color: white;">تواصل معي</button>
+    </div>
 
-[source]
-indent_size = 1
-max_line_length = 100
+</body>
+</html>
+
